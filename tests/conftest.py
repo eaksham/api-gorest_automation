@@ -17,7 +17,7 @@ def base_url():
 @pytest.fixture(scope="session")
 def headers():
     return {
-        "Authorization": "Bearer YOUR_ACCESS_TOKEN",  # Add your API token here
+        "Authorization": "7e6d373951333152f3a69af545286eef355ebf017390a3a0192f3b06e6376672",  # Add your API token here
         "Content-Type": "application/json"
     }
 
